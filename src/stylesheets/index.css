@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:light,medium,bold,extrabold,&effect=anaglyph&display=swap');
+@import url('https://fonts.googleapis.com/css?family=McLaren');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+.app {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding-bottom: 20px;
+    min-height: 100vh;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: #666;
+}
+
+button:hover {
+    cursor: pointer;
+    filter: brightness(95%)
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+
+/* /////////////////////////////////////////////////////////////// */
+
+/* 
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    min-width: 400px;
+    border-radius: 25px;
+    position: relative;
+    padding: 25px 15px;
+    background-color: #aaa;
+    margin: 30px 10px;
+    min-height: 200px;
+    box-shadow: 0 2px 5px #ccc;
+    text-align: left;
+}
+
+.card .top {
+    border-radius: 25px 25px 0 0;
+    height: 100px;
+    width: 100%;
+    background-color: #666;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+.card .name {
+    font-size: 2em;
+    color: white;
+    display: flex;
+    flex: 1;
+    margin: 10% 20px 0;
+}
+
+.card img {
+    margin: 20px 20px 0 0;
+}
+
+.card .circle-img {
+    border-radius: 50%;
+    border: 7px solid #fff;
+    width: 120px;
+    height: 120px;
+}
+
+.card .bottom {
+    margin-top: 100px;
+}
+
+.card .info {
+    padding: 0 10px 0 10px;
+    color: #eee;
+}
+
+.modal {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+    min-width: 100%;
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal .container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    align-self: center;
+    min-width: 50vw;
+    min-height: 30vh;
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+} */

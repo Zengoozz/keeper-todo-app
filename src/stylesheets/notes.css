@@ -1,0 +1,60 @@
+.notes-container {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    margin: 77px 20px 20px 20px;
+}
+
+.home .add-btn {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    padding: 15px 18px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.5) 1px 3px 3px;
+    border-radius: 40%;
+}
+
+.note-item {
+    margin: 10px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 200px;
+    min-height: 200px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    word-wrap: break-word;
+}
+
+.note-item h2 {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.1rem;
+    padding: 5px;
+    min-width: 100%;
+}
+
+.note-item p {
+    padding: 10px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    white-space: pre-line;
+}
+
+.note-item button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    background-color: white;
+    color: orangered;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 10px 0px 10px 0;
+}

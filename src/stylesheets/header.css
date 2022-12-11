@@ -1,0 +1,33 @@
+.nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: orange;
+    padding: 15px;
+    z-index: 1;
+}
+
+.nav-bar .brand-name {
+    font-family: 'McLaren';
+    color: white;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.access-form {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.access-form button {
+    display: inline-block;
+    min-width: 90px;
+    height: 100%;
+    padding: 8px;
+    background-color: orange;
+    color: white;
+    font-weight: 600;
+}

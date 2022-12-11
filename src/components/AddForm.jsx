@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import '../stylesheets/addform.css'
 
 export default function AddForm(props) {
     let [note, setNote] = useState({
@@ -18,14 +18,15 @@ export default function AddForm(props) {
     }
 
     function submitNote(event) {
-        props.addHandler(note)
-        setNote({
-            title: '',
-            content: ''
-        })
-        event.preventDefault();
+        if (note.title && note.content) {
+            props.addHandler(note)
+            setNote({
+                title: '',
+                content: ''
+            })
+            event.preventDefault();
+        }
     }
-
     return (
         <div className="add-form-container">
             <div className="add-form">

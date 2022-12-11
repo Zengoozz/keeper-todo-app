@@ -19,18 +19,6 @@ const notes = [
         title: "Big ideas",
         content: "Eat more sushi"
     },
-    {
-        title: "Big ideas",
-        content: "Eat more sushi"
-    },
-    {
-        title: "Big ideas",
-        content: "Eat more sushi"
-    },
-    {
-        title: "Big ideas",
-        content: "Eat more sushi"
-    }
 ];
 
 export default notes;

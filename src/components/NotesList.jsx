@@ -18,22 +18,27 @@ export default function NotesList(props) {
         setList(notesList.filter((note, index) => index !== id))
     }
 
-    function toggleSwitch() {
-        setShow(true)
+    const button = document.getElementsByClassName('add-btn')
+
+    function toggleSwitch(event) {
+        button[0].style['display'] = 'none'
+        setShow(true);
     }
 
 
-    window.onclick = (event) => {
-        if(event.target.className === 'add-form-container'){
+    function closeModal(event) {
+        if (event.target.className === 'add-form-container') {
             setShow(false)
+            button[0].style['display'] = 'inline'
         }
     }
 
     return (
         <div className="home">
-            { showForm && <AddForm 
+            {showForm && <AddForm
+                closeModal={closeModal}
                 addHandler={addHandler}
-            /> }
+            />}
             <div className="notes-container">
                 {props.isLogged && notesList.map((noteItem, index) => (
                     <Note

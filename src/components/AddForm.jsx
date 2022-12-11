@@ -27,8 +27,12 @@ export default function AddForm(props) {
             event.preventDefault();
         }
     }
+
+    
     return (
-        <div className="add-form-container">
+        <div
+            onClick={props.closeModal}
+            className="add-form-container">
             <div className="add-form">
                 <input
                     placeholder="Enter title..."

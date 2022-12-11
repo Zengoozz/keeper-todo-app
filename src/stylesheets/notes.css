@@ -1,11 +1,10 @@
 .notes-container {
     display: flex;
-    position: relative;
     flex-wrap: wrap;
-    margin: 77px 20px 20px 20px;
+    justify-content: center;
 }
 
-.home .add-btn {
+.add-btn {
     position: fixed;
     bottom: 0;
     right: 0;
